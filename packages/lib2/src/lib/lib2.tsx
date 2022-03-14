@@ -1,3 +1,4 @@
+import { Lib1 } from '@demo-nx-deps/lib1';
 import styles from './lib2.module.css';
 
 /* eslint-disable-next-line */
@@ -7,6 +8,7 @@ export function Lib2(props: Lib2Props) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to Lib2!</h1>
+      <Lib1 />
     </div>
   );
 }
