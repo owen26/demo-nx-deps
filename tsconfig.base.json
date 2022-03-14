@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-nx-deps/lib1": ["packages/lib1/src/index.ts"],
+      "@demo-nx-deps/lib2": ["packages/lib2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
